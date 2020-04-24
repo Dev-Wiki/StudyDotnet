@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:StudyCoreWPF"
         xmlns:view="clr-namespace:StudyCoreWPF.View"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="640" Width="320">
     <Grid>
         <view:LimitComboBox MaxInputLength="5"  Height="32" Width="160" IsEditable="True"/>
     </Grid>
