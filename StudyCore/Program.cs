@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Text;
 using System.Text.Json.Serialization;
+using System.Text.RegularExpressions;
+using System.Web;
 
 namespace StudyCore
 {
@@ -7,24 +10,6 @@ namespace StudyCore
     {
         static void Main(string[] args)
         {
-            int a = 10;
-            Console.WriteLine(DateTime.Now.ToFileTimeUtc());
-
-            if (a > 9)
-            {
-                goto Test;
-            }
-            Console.WriteLine("if ...");
-
-            Test:
-            Console.WriteLine("Test");
-
-            Console.ReadKey();
         }
-    }
-
-    class Person
-    {
-        public string name;
     }
 }

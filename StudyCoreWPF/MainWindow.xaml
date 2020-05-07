@@ -8,6 +8,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="640" Width="320">
     <Grid>
-        <view:LimitComboBox MaxInputLength="5"  Height="32" Width="160" IsEditable="True"/>
+        <Image Source="Resources/Image/close-black-18dp.svg"/>
     </Grid>
 </Window>
